@@ -1,0 +1,47 @@
+<!-- learn how to use label in iput tag -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- action when hitting the something : redirected to another website -->
+    <form action="https://www.google.com" method="get" >
+        <p>Enter email and get me to google:</p>
+        <input type="email" name="userEmail" id="">
+        <input type="submit" value="Submit">
+    </form>
+    <br> <br> <br>
+    <!-- the bad way of doing label : individually -->
+    <form >
+        <label >
+            Enter Text: <input type="text" name="" id="">
+            <br>
+            enter email: <input type="email" name="" id="">
+        </label>
+    </form>
+    <br> <br> <br>
+    <!-- the recommended way of doing it  -->
+    <form>
+        <label for="userId"> <b> Enter some text</b></label>
+        <input type="text" id="userId" placeholder="heello">
+    </form>
+
+    <!-- required field -->
+    <br><br> <br>
+    <form >
+        <label >
+            Enter Text: <input type="text" placeholder="not required">
+            <br>
+            enter text: <input type="text" placeholder="required" required>
+            <br>
+            <input type="submit" value="Submit">
+        </label>
+    </form>
+</body>
+</html>
