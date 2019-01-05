@@ -1,0 +1,40 @@
+<!-- drop down button etc radio button  -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hotel feedback</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Hotel feedback form</h1>
+    <form method="get">
+        <h2>R U interanational??</h3>
+        <!-- label -->
+        <!-- if they have the same name then only 1 radio button can be chosen at a time -->
+        <label for="US">Inside USA</label>
+        <input type="radio" name="loc" id="US" value="inside">
+
+        <label for="noUS">Outside USA</label>
+        <input type="radio" name="loc" id="noUS" value="outside">
+
+        <!-- dropdown menu -->
+        <h2>How was your service?</h2>
+        <select name="starts" id="">
+            <option value="Great">3</option>
+            <option value="ok">2</option>
+            <option value="bad">1</option>
+        </select>
+
+        <!-- text area -->
+        <h2>any other feedback?</h2>
+        <textarea name="mytext" id="" cols="80" rows="10"></textarea>
+        <br>
+        <!-- submit button -->
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
