@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SignUp</title>
+</head>
+<body>
+    <h1>Course Sign Up Page</h1>
+    <p>Please note that first name, last name , email and, password are required</p>
+    <!-- redirected to thank you page when hitting submit -->
+    <form action="Thankyou.html" method="get">
+
+        <!-- actual input -->
+        <label for="fname">First Name:</label>
+        <input type="text" name="f_name" id="fname" placeholder="First Name" required>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" name="l_name" id="lname" placeholder="Last Name" required>
+
+        <br> <br>
+        <label for="email">Email:</label>
+        <input type="email" name="e_mail" id="email" placeholder="Email" required>
+
+        <label for="pass">Password:</label>
+        <input type="password" name="password" id="pass" placeholder="Password" required>
+
+        <!-- Radio buttons that select 1 in 2 -->
+        <p> <b> Are you over 18? </b></p>
+        <label for="yes">Yes:</label>
+        <input type="radio" name="18" id="yes">
+        <label for="no">No:</label>
+        <input type="radio" name="18" id="no">
+
+        <!-- drop down menu -->
+        <p>Credit Card or Paypal ?</p>
+        <label for="payment">Select one of these option:</label>
+        <select name="payment_type" id="payment">
+            <option value="Credit">Credit Card</option>
+            <option value="PayPal">PayPal</option>
+        </select>
+
+        <br>
+        <!-- submit button -->
+        <input type="submit" value="Submit Feedback">
+
+    </form>
+</body>
+</html>
