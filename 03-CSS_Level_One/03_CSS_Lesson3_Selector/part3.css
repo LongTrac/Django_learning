@@ -1,0 +1,54 @@
+/* "." select a specific class alone */
+.firstDiv{
+    color:red;
+}
+
+.secondDiv{
+    color: blue;
+}
+
+/* # select a specific id alone 
+and not affected by the "*" selection*/
+#singleOut{
+    color: green;
+    text-decoration: underline
+}
+
+/* This would overwrite as much as it can but not id */
+*{
+    /* color: black; */
+}
+
+/* anything with a ul tag that is next to h3 */
+h3 + ul{
+    border: 2px dashed blue ;
+}
+
+/* anything with a h5 tag mext to ul */
+/* this would select all 3 sentences in the html:
+    Im a boy, girl and undefined */
+ul + h5{
+    border: 4px dotted red;
+}
+
+/* this only selected the one with a h5 and ul tag ahead of it  */
+h3 + ul+ h5{
+    background: pink;
+}
+
+/* the student */
+/* all anchor tag inside a ul tag or if you want more specific, use li tag*/
+ul a{
+    color: red
+}
+
+/* to select a specific anchor tag ul or li works fine*/
+li a[href = "https://www.google.com/"]{
+    background: rgb(100, 231, 225);
+    /* border: thin solid black; */
+}
+
+
+
+
+
