@@ -8,7 +8,8 @@ Watch the video lecture for more info on this! */
 Give the body element of the site a light blue background using HEX code*/
 
 body{
-    background-color: #89fffb;
+    /* background-color: #89fffb; */
+    background-image: url("https://png.pngtree.com/element_origin_min_pic/17/01/06/19285e3fc48cee4f1d2782dbc685f9ed.jpg");   
 }
 
 /*Task # 2
