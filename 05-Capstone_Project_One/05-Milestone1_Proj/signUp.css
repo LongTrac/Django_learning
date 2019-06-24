@@ -1,0 +1,33 @@
+body{
+    font-family: 'Satisfy', cursive;
+    background-color: black;
+    color: azure;
+    text-align: center;
+    border: 40px solid cyan;
+    border-top: 0px;
+    margin:0px;
+}
+
+p{
+    padding-left:20%; 
+    padding-right:20%;
+    padding-top: 3%;
+}
+
+.emailForm{
+    font-size: 25px;
+}
+
+.emailForm input[type='text'], .emailForm input[type='email']{
+    width: 20%;
+}
+
+.emailForm input[type='submit']{
+    background-color: #ff9f1c;
+    height: 80px;
+    width: 10%;
+    margin: 4px;
+    margin-top: 15px;
+    font-size: 0.75em;
+    border-radius: 10px;
+}

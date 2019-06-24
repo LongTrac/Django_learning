@@ -1,0 +1,10 @@
+body{
+    font-family: 'Bree Serif', serif;
+        background-color: black;
+        color: azure;
+        text-align: center;
+        border: 40px solid cyan;
+        border-top: 0px;
+        margin:0px;
+    
+}
