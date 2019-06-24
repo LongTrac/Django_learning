@@ -1,0 +1,55 @@
+#title{
+    font-family: 'Permanent Marker';
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    border: solid rgb(255, 153, 0) 2px;
+    width:60%;
+}
+
+th{
+    width: 5%;
+    margin: 20px 20px;
+    border: dotted ;
+}
+
+#red{
+    padding: 10%;
+    border: solid black 2px;
+    width:10%;
+    background-color: red;
+}
+
+#orange{
+    padding: 10%;
+    border: solid black 2px;
+    width:10%;
+    background-color: rgb(255, 166, 0);
+}
+
+#yellow{
+    padding: 10%;
+    border: solid black 2px;
+    width:10%;
+    background-color: yellow;
+}
+#green{
+    padding: 10%;
+    border: solid black 2px;
+    width:10%;
+    background-color: green;
+}
+#blue{
+    padding: 10%;
+    border: solid black 2px;
+    width:10%;
+    background-color: blue;
+}
+#purple{
+    padding: 10%;
+    border: solid black 2px;
+    width:10%;
+    background-color: purple;
+}
